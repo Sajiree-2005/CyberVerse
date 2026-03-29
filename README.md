@@ -4,14 +4,57 @@
 
 ---
 
-## 🎬 Overview
+## Live Demo
+
+🔗 [Try CyberVerse]([YOUR_LIVE_DEMO_LINK](https://cyber-verse-beryl.vercel.app/))
+
+📄 [Project Documentation](YOUR_PROJECT_DOC_LINK)
+
+---
+
+## Demo Preview
+
+![CyberVerse Demo](ADD_GIF_OR_SCREENSHOT_LINK)
+
+---
+
+## ❗ Problem Statement
+
+Traditional computer science education is often passive, abstract, and difficult to visualize.
+
+Students struggle to understand how systems actually work internally — from CPU execution to network communication — because concepts are taught without interaction or real-time feedback.
+
+---
+
+## 💡 Solution
+
+CyberVerse transforms technical learning into an interactive, story-driven experience where users:
+
+- Explore system concepts visually  
+- Make decisions that affect outcomes  
+- Apply knowledge through real-time simulation  
+
+This bridges the gap between theory and practical understanding.
+
+---
+
+## Overview
 
 CyberVerse is a hackathon project that reimagines how people learn about computer systems. It's not a tutorial—it's a journey. Through smooth scrolling, storytelling, and interactive decision-making, users explore the hidden mechanics that power every device.
 
 The experience unfolds in two modes:
 
-- **Story Mode**: A cinematic scroll-through of system architecture
-- **Simulation Mode**: A real-time defense challenge
+- **Story Mode**: A cinematic scroll-through of system architecture  
+- **Simulation Mode**: A real-time defense challenge  
+
+---
+
+## 🏆 Why CyberVerse Stands Out
+
+- Combines education + interaction + storytelling  
+- Goes beyond static tutorials into experiential learning  
+- Demonstrates strong frontend engineering + product thinking  
+- Designed as a deployable, scalable learning platform  
 
 ---
 
@@ -19,20 +62,30 @@ The experience unfolds in two modes:
 
 ### Story Mode
 
-- 🧠 **CPU Architecture** – Understand instruction pipelines, speculative execution, and core design
-- 💾 **Memory Hierarchy** – Explore cache layers, RAM, and disk storage trade-offs
-- 🌐 **Network Communication** – See how packets travel and protocols work
-- 🔐 **Security Layers** – Learn vulnerabilities from CPU to application
-- ✋ **Interactive Decisions** – Make choices that influence story outcomes
-- 🎨 **Cinematic Animations** – Smooth transitions, glowing effects, and visual storytelling
+- 🧠 **CPU Architecture** – Understand instruction pipelines, speculative execution, and core design  
+- 💾 **Memory Hierarchy** – Explore cache layers, RAM, and disk storage trade-offs  
+- 🌐 **Network Communication** – See how packets travel and protocols work  
+- 🔐 **Security Layers** – Learn vulnerabilities from CPU to application  
+- ✋ **Interactive Decisions** – Make choices that influence story outcomes  
+- 🎨 **Cinematic Animations** – Smooth transitions, glowing effects, and visual storytelling  
 
 ### Simulation Mode
 
-- 🎮 **Real-Time Defense** – Detect threats and respond to live attacks
-- 🛡️ **System Management** – Isolate infected nodes, stabilize overloads
-- 📊 **Performance Metrics** – Monitor system health in real-time
-- 🏆 **Challenge Progression** – Escalating difficulty and scenarios
-- 💫 **Particle Effects** – Animated background with theme-matched colors
+- 🎮 **Real-Time Defense** – Detect threats and respond to live attacks  
+- 🛡️ **System Management** – Isolate infected nodes, stabilize overloads  
+- 📊 **Performance Metrics** – Monitor system health in real-time  
+- 🏆 **Challenge Progression** – Escalating difficulty and scenarios  
+- 💫 **Particle Effects** – Animated background with theme-matched colors  
+
+---
+
+## 📸 Screenshots
+
+### Story Mode
+![Story Mode](ADD_IMAGE_LINK)
+
+### Simulation Mode
+![Simulation Mode](ADD_IMAGE_LINK)
 
 ---
 
@@ -49,7 +102,7 @@ The experience unfolds in two modes:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -59,26 +112,17 @@ The experience unfolds in two modes:
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/Sajiree-2005/CyberVerse.git
 cd CyberVerse
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
+
+Have ideas or feedback? Open an issue or reach out:
+
+- GitHub: [@Sajiree-2005](https://github.com/Sajiree-2005)
+- Project Repo: [CyberVerse](https://github.com/Sajiree-2005/CyberVerse)
+
 ```
-
-Open `http://localhost:5173/` in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-npm run preview
-```
-
 ---
 
 ## 🎯 How to Use
@@ -202,6 +246,7 @@ CyberVerse is a passion project exploring the intersection of technical educatio
 
 Have ideas or feedback? Open an issue or reach out:
 
+- LinkedIn: www.linkedin.com/in/sajiree-damle
 - GitHub: [@Sajiree-2005](https://github.com/Sajiree-2005)
 - Project Repo: [CyberVerse](https://github.com/Sajiree-2005/CyberVerse)
 
