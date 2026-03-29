@@ -2,11 +2,6 @@
 
 > An interactive cinematic experience exploring how computers think, remember, communicate, and defend themselves.
 
-![CyberVerse](https://img.shields.io/badge/Frontend%20Odyssey-Interactive%20Web%20Experience-blue?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18-blue?style=logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3-blue?style=logo=tailwindcss)
-
 ---
 
 ## 🎬 Overview
