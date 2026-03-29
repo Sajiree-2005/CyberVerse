@@ -282,7 +282,10 @@ function TopNav() {
         </div>
 
         <button
-          onClick={() => navigate("/simulation")}
+          onClick={() => {
+            window.scrollTo(0, 0);
+            navigate("/simulation");
+          }}
           className="flex items-center gap-2 px-4 py-2 bg-cyber-blue/10 border border-cyber-blue/30 rounded-lg text-cyber-blue text-[12px] font-heading tracking-wider hover:bg-cyber-blue/20 hover:border-cyber-blue/50 transition-all duration-200"
           style={{ boxShadow: "0 0 20px hsl(217 91% 60% / 0.1)" }}
         >
@@ -3181,7 +3184,10 @@ function SynthesisSection() {
             </div>
 
             <button
-              onClick={() => navigate("/simulation")}
+              onClick={() => {
+                window.scrollTo(0, 0);
+                navigate("/simulation");
+              }}
               className="group relative inline-flex items-center gap-4 px-10 py-5 rounded-2xl border-2 border-red-500/40 bg-red-500/[0.07] text-red-300 font-heading text-[16px] tracking-[0.1em] hover:bg-red-500/12 hover:border-red-500/60 transition-all duration-300 active:scale-[0.97] overflow-hidden mb-4"
               style={{
                 boxShadow:
