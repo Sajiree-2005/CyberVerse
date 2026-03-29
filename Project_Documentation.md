@@ -1,4 +1,4 @@
-# 🎯 HACKATHON SUBMISSION: CYBERVERSE
+# 🎯 Project Documentation: CYBERVERSE
 
 ---
 
@@ -31,98 +31,6 @@ Every micro-interaction—from particles drifting in the background to buttons r
 CyberVerse proves that technical education can be compelling entertainment. It's not just about _explaining_ how computers work—it's about making users _feel_ the weight of system administration, the thrill of defense, and the satisfaction of mastery.
 
 **The goal**: Make system architecture accessible, engaging, and unforgettable.
-
----
-
-## 📋 COMPLETE README
-
-````markdown
-# CyberVerse – Inside a Computer
-
-> An interactive cinematic experience exploring how computers think, remember, communicate, and defend themselves.
-
-![CyberVerse](https://img.shields.io/badge/Frontend%20Odyssey-Interactive%20Web%20Experience-blue?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18-blue?style=logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3-blue?style=logo=tailwindcss)
-
----
-
-## 🎬 Overview
-
-CyberVerse is a hackathon project that reimagines how people learn about computer systems. It's not a tutorial—it's a journey. Through smooth scrolling, storytelling, and interactive decision-making, users explore the hidden mechanics that power every device.
-
-The experience unfolds in two modes:
-
-- **Story Mode**: A cinematic scroll-through of system architecture
-- **Simulation Mode**: A real-time defense challenge
-
----
-
-## ✨ Features
-
-### Story Mode
-
-- 🧠 **CPU Architecture** – Understand instruction pipelines, speculative execution, and core design
-- 💾 **Memory Hierarchy** – Explore cache layers, RAM, and disk storage trade-offs
-- 🌐 **Network Communication** – See how packets travel and protocols work
-- 🔐 **Security Layers** – Learn vulnerabilities from CPU to application
-- ✋ **Interactive Decisions** – Make choices that influence story outcomes
-- 🎨 **Cinematic Animations** – Smooth transitions, glowing effects, and visual storytelling
-
-### Simulation Mode
-
-- 🎮 **Real-Time Defense** – Detect threats and respond to live attacks
-- 🛡️ **System Management** – Isolate infected nodes, stabilize overloads
-- 📊 **Performance Metrics** – Monitor system health in real-time
-- 🏆 **Challenge Progression** – Escalating difficulty and scenarios
-- 💫 **Particle Effects** – Animated background with theme-matched colors
-
----
-
-## 🛠️ Tech Stack
-
-| Layer                | Technology                       |
-| -------------------- | -------------------------------- |
-| **Frontend**         | React 18 + TypeScript            |
-| **Styling**          | Tailwind CSS + Custom Animations |
-| **State Management** | React Hooks                      |
-| **Routing**          | React Router                     |
-| **Build Tool**       | Vite                             |
-| **Testing**          | Playwright + Vitest              |
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Node.js 16+
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Sajiree-2005/CyberVerse.git
-cd CyberVerse
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-````
-
-Open `http://localhost:5173/` in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-npm run preview
-```
 
 ---
 
@@ -253,9 +161,8 @@ Have ideas or feedback? Open an issue or reach out:
 
 ---
 
-**Ready to explore inside a computer? [Start the experience now.](https://cyberverse.dev)**
+**Ready to explore inside a computer? [Start the experience now.]()**
 
-```
 
 ---
 
