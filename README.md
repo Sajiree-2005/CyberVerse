@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # CyberVerse - Inside a Computer
 
 An interactive cinematic exploration of how computers think, remember, communicate, and defend themselves.
@@ -13,4 +15,6 @@ An interactive cinematic exploration of how computers think, remember, communica
 
 ## Getting Started
 
-TODO: Add project documentation here
+# TODO: Add project documentation here
+
+> > > > > > > 18ca2c271e18e92dc6aa372156a2c3aeab33bbd7
