@@ -18,7 +18,7 @@
 ![CyberVerse Landing Page](assets/landing-page.png)
 
 ### CyberVerse Demo
-![CyberVerse Demo](ADD_GIF_OR_SCREENSHOT_LINK)
+![CyberVerse Demo](assets/demo.gif)
 
 ---
 
