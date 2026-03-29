@@ -8,7 +8,7 @@
 
 🔗 Live Link : [CyberVerse](https://cyber-verse-beryl.vercel.app/)
 
-📄 [Project Documentation](Project_Documentation.md)
+📄 Documentation : [Project Documentation](Project_Documentation.md)
 
 ---
 
