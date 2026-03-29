@@ -413,12 +413,7 @@ function HeroSection() {
         <RevealWrapper delay={80}>
           <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl text-white tracking-tight leading-[0.95] mb-6">
             Inside a<br />
-            <span
-              className="text-cyber-blue"
-              style={{ textShadow: "0 0 60px hsl(217 91% 60% / 0.35)" }}
-            >
-              Computer
-            </span>
+            <span className="text-cyber-blue">Computer</span>
           </h1>
         </RevealWrapper>
 
@@ -894,13 +889,15 @@ function IntroSection() {
             ].map((card, i) => (
               <div
                 key={card.title}
-                className="rounded-xl border border-[#1e2a35] bg-[#0f1520]/50 p-4 hover:border-cyan-500/30 hover:bg-[#0f1520]/80 transition-all duration-300"
+                className="rounded-xl border border-[#1e2a35] bg-[#0f1520]/50 p-4 hover:border-cyan-500/30 hover:bg-[#0f1520]/80 transition-all duration-300 group hover:shadow-lg hover:shadow-cyan-500/[0.15]"
               >
-                <div className="text-2xl mb-2">{card.icon}</div>
-                <h3 className="font-heading text-sm tracking-wider text-white mb-1">
+                <div className="text-2xl mb-2 group-hover:scale-110 transition-transform duration-300">
+                  {card.icon}
+                </div>
+                <h3 className="font-heading text-sm tracking-wider text-white mb-1 group-hover:text-cyan-300 transition-colors duration-300">
                   {card.title}
                 </h3>
-                <p className="text-[13px] text-slate-400 leading-snug">
+                <p className="text-[13px] text-slate-400 leading-snug group-hover:text-slate-300 transition-colors duration-300">
                   {card.description}
                 </p>
               </div>
@@ -3209,6 +3206,23 @@ const Story = () => (
     className="relative"
     style={{ backgroundColor: "#080d12", overflow: "hidden" }}
   >
+    {/* Animated Background Elements */}
+    <div className="fixed inset-0 pointer-events-none z-0">
+      {/* Grid Pattern */}
+      <div className="absolute inset-0 opacity-[0.015] bg-grid" />
+
+      {/* Gradient Orbs */}
+      <div className="absolute top-1/4 -left-32 w-96 h-96 rounded-full blur-[120px] opacity-20 animate-drift-slow bg-orb-blue" />
+      <div className="absolute top-1/2 -right-40 w-96 h-96 rounded-full blur-[120px] opacity-15 animate-drift-x bg-orb-green" />
+      <div className="absolute bottom-1/4 left-1/3 w-80 h-80 rounded-full blur-[100px] opacity-10 animate-drift-y bg-orb-amber" />
+
+      {/* Top Gradient Fade */}
+      <div className="absolute inset-x-0 top-0 h-64 bg-gradient-to-b from-[#0a0f18] via-transparent to-transparent" />
+
+      {/* Noise Texture */}
+      <div className="absolute inset-0 opacity-[0.02] bg-noise" />
+    </div>
+
     <TopNav />
     <SideProgress />
     <main className="pt-16 relative z-10">

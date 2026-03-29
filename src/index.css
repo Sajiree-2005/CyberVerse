@@ -631,6 +631,130 @@ html {
   animation: drift-slow 15s ease-in-out infinite;
 }
 
+/* Enhanced Animations for Better Graphics */
+
+@keyframes glow-pulse-enhanced {
+  0%,
+  100% {
+    box-shadow:
+      0 0 20px hsl(217 91% 60% / 0.5),
+      0 0 40px hsl(217 91% 60% / 0.3),
+      0 0 60px hsl(217 91% 60% / 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 40px hsl(217 91% 60% / 0.8),
+      0 0 80px hsl(217 91% 60% / 0.5),
+      0 0 120px hsl(217 91% 60% / 0.2);
+  }
+}
+
+@keyframes holographic-rotate {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes neon-flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow:
+      0 0 10px hsl(217 91% 60%),
+      0 0 20px hsl(217 91% 60% / 0.8),
+      0 0 40px hsl(217 91% 60% / 0.5);
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow:
+      0 0 5px hsl(217 91% 60% / 0.3),
+      0 0 10px hsl(217 91% 60% / 0.2);
+  }
+}
+
+@keyframes matrix-rain {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes cyber-pop {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes wave-ripple {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-glow-pulse-enhanced {
+  animation: glow-pulse-enhanced 2s ease-in-out infinite;
+}
+
+.animate-holographic-rotate {
+  animation: holographic-rotate 8s linear infinite;
+  perspective: 1000px;
+}
+
+.animate-neon-flicker {
+  animation: neon-flicker 0.15s infinite;
+}
+
+.animate-matrix-rain {
+  animation: matrix-rain 3s ease-in infinite;
+}
+
+.animate-cyber-pop {
+  animation: cyber-pop 0.6s ease-out forwards;
+}
+
+.animate-wave-ripple {
+  animation: wave-ripple 1s ease-out forwards;
+}
+
+/* Interactive hover effects */
+.card-glow-hover {
+  transition: all 0.3s ease;
+}
+
+.card-glow-hover:hover {
+  box-shadow:
+    0 0 20px hsl(217 91% 60% / 0.2),
+    inset 0 0 20px hsl(217 91% 60% / 0.05);
+}
+
 /* Side progress dots */
 .story-dot {
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -679,22 +803,4 @@ html {
 
 .bg-noise {
   background-image: url("data:image/svg+xml,%3Csvg viewBox=%220 0 400 400%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 /%3E%3C/filter%3E%3Crect width=%22400%22 height=%22400%22 filter=%22url(%23noise)%22 /%3E%3C/svg%3E");
-}
-
-/* Particles.js Background */
-#particles-js {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background: linear-gradient(135deg, #080d12 0%, #0a0f18 100%);
-}
-
-canvas {
-  display: block;
-}
-
-/* Ensure particles don't interfere with content */
-#particles-js ~ * {
-  position: relative;
-  z-index: 1;
 }
