@@ -255,9 +255,11 @@ function TopNav() {
     >
       <div className="max-w-7xl mx-auto px-6 py-3.5 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
-          <div className="w-6 h-6 rounded border border-cyber-blue/40 flex items-center justify-center bg-cyber-blue/[0.08]">
-            <div className="w-2.5 h-2.5 rounded-sm bg-cyber-blue/80" />
-          </div>
+          <img
+            src="/logo.png"
+            alt="CyberVerse"
+            className="w-6 h-6 object-contain"
+          />
           <span className="font-heading text-sm tracking-[0.18em] text-white/80 uppercase">
             CyberVerse
           </span>
@@ -365,8 +367,17 @@ function HeroSection() {
       {/* Glow */}
       <div className="absolute inset-0 pointer-events-none">
         <div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full blur-[160px] transition-all duration-2000"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full blur-[160px] transition-all duration-2000 animate-background-glow"
           style={{ background: glowColor }}
+        />
+        {/* Secondary glow for depth */}
+        <div
+          className="absolute top-1/3 right-1/4 w-[500px] h-[500px] rounded-full blur-[140px] opacity-40"
+          style={{ background: "hsl(142 71% 45% / 0.04)" }}
+        />
+        <div
+          className="absolute bottom-1/4 left-1/4 w-[600px] h-[600px] rounded-full blur-[150px] opacity-30"
+          style={{ background: "hsl(38 92% 50% / 0.03)" }}
         />
       </div>
 

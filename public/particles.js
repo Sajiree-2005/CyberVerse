@@ -18,9 +18,9 @@ class Particle {
 
   getRandomColor() {
     const colors = [
-      "hsl(217 91% 60%)", // cyan
-      "hsl(142 71% 45%)", // green
-      "hsl(38 92% 50%)", // amber
+      "hsl(217, 91%, 60%)", // cyan (bright blue)
+      "hsl(142, 71%, 45%)", // green
+      "hsl(38, 92%, 50%)", // amber/orange
     ];
     return colors[Math.floor(Math.random() * colors.length)];
   }
@@ -50,8 +50,8 @@ class Particle {
   }
 }
 
-export class ParticlesBackground {
-  constructor(containerId = "particles-canvas") {
+class ParticlesBackground {
+  constructor(containerId = "particles-container") {
     this.container = document.getElementById(containerId);
     if (!this.container) {
       console.warn(`Container with id '${containerId}' not found`);
@@ -136,11 +136,20 @@ export class ParticlesBackground {
   }
 }
 
-// Auto-initialize if DOM is ready
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", () => {
+// Auto-initialize when DOM is ready
+function initParticles() {
+  const container = document.getElementById("particles-container");
+  if (container) {
+    console.log("Initializing particles background...");
     new ParticlesBackground("particles-container");
-  });
+  } else {
+    console.warn("particles-container not found, retrying...");
+    setTimeout(initParticles, 100);
+  }
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initParticles);
 } else {
-  new ParticlesBackground("particles-container");
+  initParticles();
 }
