@@ -14,7 +14,7 @@
 
 ## Demo Preview
 
-![CyberVerse Landing Page](assets/Landing Page.png)
+![CyberVerse Landing Page](assets/landing-page.png)
 ![CyberVerse Demo](ADD_GIF_OR_SCREENSHOT_LINK)
 
 ---
@@ -83,10 +83,10 @@ The experience unfolds in two modes:
 ## 📸 Screenshots
 
 ### Story Mode
-![Story Mode](assets/Story Mode.png)
+![Story Mode](assets/story-mode.png)
 
 ### Simulation Mode
-![Simulation Mode](assets/Simulation Mode.png)
+![Simulation Mode](assets/simulation-mode.png)
 
 ---
 
