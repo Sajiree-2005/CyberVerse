@@ -163,8 +163,4 @@ Have ideas or feedback? Open an issue or reach out:
 
 **Ready to explore inside a computer? [Start the experience now.]()**
 
-
 ---
-
-**End of Hackathon Submission Materials**
-```
