@@ -1,4 +1,4 @@
-# 🎯 HACKATHON SUBMISSION: CYBERVERSE
+# 🎯 Project Documentation: CYBERVERSE
 
 ---
 
